@@ -13,3 +13,25 @@
 
 https://gist.github.com/roachhd/1f029bd4b50b8a524f3c
 ```
+
+<br>
+
+## Simple Git Commands
+
+```bash
+# check your current branch
+
+git branch
+
+# create a new branch, containing all the code from the master branch
+
+git branch place-a-new-name-here
+
+# switch to the new branch
+
+git checkout place-a-new-name-here
+
+# git video - Education
+
+https://www.youtube.com/watch?v=oFYyTZwMyAg
+```
