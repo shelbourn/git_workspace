@@ -8,7 +8,7 @@
 </br>
 :sunglasses: • @nickanderson038
 
-```bash
+```
 # Link for README.md emoji cheat sheet
 
 https://gist.github.com/roachhd/1f029bd4b50b8a524f3c
@@ -18,7 +18,7 @@ https://gist.github.com/roachhd/1f029bd4b50b8a524f3c
 
 ## Simple Git Commands
 
-```bash
+```
 # check your current branch
 
 git branch
@@ -38,7 +38,7 @@ https://www.youtube.com/watch?v=oFYyTZwMyAg
 
 <br>
 
-```bash
+```
 # Link for Basics of Branching and Merging
 
 [Basics of Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
