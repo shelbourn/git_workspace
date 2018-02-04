@@ -36,6 +36,6 @@ https://www.youtube.com/watch?v=oFYyTZwMyAg
 
 <br>
 
-### Link for Basics of Branching and Merging
+## Link for Basics of Branching and Merging
 
 [Basics of Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
