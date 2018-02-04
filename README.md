@@ -38,11 +38,11 @@ https://www.youtube.com/watch?v=oFYyTZwMyAg
 
 <br>
 
-<br>
-
 ## Git Markdown Cheat Sheet
 
 [Git Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+<br>
 
 ## Link for Basics of Branching and Merging
 
