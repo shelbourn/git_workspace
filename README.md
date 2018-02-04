@@ -1,5 +1,7 @@
 # git_workspace -- Playground for cool little coding projects
 
+<br>
+
 ### Main Contributors to this repository are:
 
 :grin: • @shelbourn
