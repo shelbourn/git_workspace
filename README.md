@@ -8,11 +8,9 @@
 </br>
 :sunglasses: • @nickanderson038
 
-```
-# Link for README.md emoji cheat sheet
+### Link for README.md emoji cheat sheet
 
-https://gist.github.com/roachhd/1f029bd4b50b8a524f3c
-```
+[Emoji Cheat Sheet](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c)
 
 <br>
 
@@ -38,8 +36,6 @@ https://www.youtube.com/watch?v=oFYyTZwMyAg
 
 <br>
 
-```
-# Link for Basics of Branching and Merging
+### Link for Basics of Branching and Merging
 
 [Basics of Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
-```
