@@ -59,6 +59,4 @@ https://www.youtube.com/watch?v=oFYyTZwMyAg
 
 ## Git Emoji Cheat Sheet
 
-[Git Emoji Cheat Sheet](### Link for README.md emoji cheat sheet
-
 [Emoji Cheat Sheet](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c)
