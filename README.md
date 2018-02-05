@@ -46,6 +46,8 @@ https://www.youtube.com/watch?v=oFYyTZwMyAg
 
 [Basics of Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
+<br>
+
 ## Link for Vim Cheat Sheet
 
 [Vim Cheat Sheet](https://vim.rtorr.com/)
