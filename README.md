@@ -1,10 +1,10 @@
 # git_workspace | Playground for cool little coding projects
 ## Playground for cool little coding projects
 ### https://github.com/shelbourn/git_workspace.git
-### Main Contributors to this repository are:
-### :grin: • @shelbourn
-### :sunglasses: • @nickanderson038
-### dde4a47485e254faec9810e9488c5970a21ce658
+**Main Contributors to this repository are:**
+**:grin: • @shelbourn**
+**:sunglasses: • @nickanderson038**
+**dde4a47485e254faec9810e9488c5970a21ce658**
 
 <br>
 <br>
