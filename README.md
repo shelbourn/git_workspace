@@ -10,7 +10,6 @@
 ***dde4a47485e254faec9810e9488c5970a21ce658***
 
 <br>
-<br>
 
 ## Simple Git Commands
 
