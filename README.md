@@ -15,10 +15,7 @@ dde4a47485e254faec9810e9488c5970a21ce658
 </br>
 :sunglasses: • @nickanderson038
 
-### Link for README.md emoji cheat sheet
-
-[Emoji Cheat Sheet](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c)
-
+<br>
 <br>
 
 ## Simple Git Commands
@@ -64,3 +61,11 @@ https://www.youtube.com/watch?v=oFYyTZwMyAg
 ## Resolving Merge Conflicts Between Branches that are both being updated Simultaneously
 
 [Resolving Merge Conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/)
+
+<br>
+
+## Git Emoji Cheat Sheet
+
+[Git Emoji Cheat Sheet](### Link for README.md emoji cheat sheet
+
+[Emoji Cheat Sheet](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c)
