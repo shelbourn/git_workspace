@@ -3,11 +3,11 @@
 ### https://github.com/shelbourn/git_workspace.git
 __Main Contributors to this repository are:__
 <br>
-**:grin:• @shelbourn**
+***:grin: • @shelbourn***
 <br>
-**:sunglasses: • @nickanderson038**
+***:sunglasses: • @nickanderson038***
 <br>
-**dde4a47485e254faec9810e9488c5970a21ce658**
+***dde4a47485e254faec9810e9488c5970a21ce658***
 
 <br>
 <br>
