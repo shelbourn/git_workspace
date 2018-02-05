@@ -58,3 +58,9 @@ https://www.youtube.com/watch?v=oFYyTZwMyAg
 ## Link for Vim Cheat Sheet
 
 [Vim Cheat Sheet](https://vim.rtorr.com/)
+
+<br>
+
+## Resolving Merge Conflicts Between Branches that are both being updated Simultaneously
+
+[Resolving Merge Conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/)
