@@ -66,3 +66,18 @@ https://www.youtube.com/watch?v=oFYyTZwMyAg
 ## Git Pull vs Git Fetch (and Stashing)
 
 [Git Pull vs Git Fetch (and Stashing)](https://codeahoy.com/2016/04)
+
+<br>
+
+## Syncing local branches (including multiple branches) with remote branches (remote branch overrides local branch)
+
+Fetch remote branch changes and pull them into local branches:
+```
+git fetch --prune
+```
+<br>
+
+Prune remote branches that have been removed to eliminate them locally:
+```
+git pull -p --prune
+```
