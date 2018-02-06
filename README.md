@@ -79,3 +79,9 @@ Prune remote branches that have been removed to eliminate them locally:
 ```
 git pull -p --prune
 ```
+
+<br>
+
+## Settings Sync for VS Code (Syncs user settings across multiple VS Code environments)
+
+[Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
