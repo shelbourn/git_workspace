@@ -75,8 +75,6 @@ Fetch remote branch changes and pull them into local branches:
 ```
 git fetch --prune
 ```
-<br>
-
 Prune remote branches that have been removed to eliminate them locally:
 ```
 git pull -p --prune
