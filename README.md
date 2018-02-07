@@ -57,6 +57,6 @@ https://www.youtube.com/watch?v=oFYyTZwMyAg
 
 <br>
 
-## Git Emoji Cheat Sheet
+## Git Emoji Cheat Sheet :wink:
 
 [Emoji Cheat Sheet](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c)
