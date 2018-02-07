@@ -60,3 +60,31 @@ https://www.youtube.com/watch?v=oFYyTZwMyAg
 ## Git Emoji Cheat Sheet :wink:
 
 [Emoji Cheat Sheet](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c)
+
+<br>
+
+## Git Pull vs Git Fetch (and Stashing)
+
+[Git Pull vs Git Fetch (and Stashing)](https://codeahoy.com/2016/04)
+
+<br>
+
+## Syncing local branches (including multiple branches) with remote branches (remote branch overrides local branch)
+
+Fetch remote branch changes and pull them into local branches:
+
+```
+git fetch --prune
+```
+
+Prune remote branches that have been removed to eliminate them locally:
+
+```
+git pull -p --prune
+```
+
+<br>
+
+## Settings Sync for VS Code (Syncs user settings across multiple VS Code environments)
+
+[Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
