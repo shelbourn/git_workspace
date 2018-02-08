@@ -91,6 +91,8 @@ git pull -p --prune
 
 JSON Placeholder Webapp `https://jsonplaceholder.typicode.com/`
 
+<br>
+
 ## Settings Sync for VS Code (Syncs user settings across multiple VS Code environments)
 
 [Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
