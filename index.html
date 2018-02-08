@@ -88,6 +88,7 @@
 
                 service1post: function (name, email) {
                     // const data = JSON.stringify({ "limit": 48, "offset": 0, "sortBy": "name", "sortDirection": "ASC", "path": "/Flight Control", "_method": "GET" })
+
                     /*Uses '$q' to return a 'Promise'. Notice how $q was injected at the top of this factory in order to be used.*/
                     const deferred = $q.defer();
                     $http({
