@@ -89,9 +89,7 @@ git pull -p --prune
 
 ## JSON Free Testing Api
 
-```bash
-JSON Placeholder Webapp 'https://jsonplaceholder.typicode.com/'
-```
+JSON Placeholder Webapp `https://jsonplaceholder.typicode.com/`
 
 ## Settings Sync for VS Code (Syncs user settings across multiple VS Code environments)
 
