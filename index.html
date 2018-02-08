@@ -1,17 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Angular Starter (Single Page)</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
+    <style>
+        body{
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
 </head>
 
-<body>
-    <h1>
-        Test Index.
-    </h1>
+<body ng-app="starterApp">
+    <div ng-controller="myController">
+        <h1>AngularJS Simple Example: Including Boostrap Stylings</h1>
+        <!-- =========================================== -->
+        <hr>
+        <h2>Bind example from controller (variable)</h2>
+        <p>Binded Variable: {{myBindedVariable}}</p>
+        <!-- =========================================== -->
+        <hr>
+        <h2>Bind example (object and input)</h2>
+        <p>
+            <input ng-model="bindedObject.input1" type="" name="">
+        </p>
+        <p>Binded Object: {{bindedObject.input1}}</p>
+        <pre>{{bindedObject}}</pre>
+        <!-- =========================================== -->
+        <hr>
+        <h2>Function/services layer example</h2>
+        <br>
+        <h3>This click function was declared in the controller, attached to the scope, and fired from the 'view'. it also uses
+            the Services/Model layer to perform a post, then return data to another Binded variable.</h3>
+            <br>
+        <button class="btn btn-primary" ng-click="testPost('parameter1', 'parameter2')">GET some test variables</button>
+        <br>
+        <br>
+        <p>{{returnData}}</p>
+    </div>
 </body>
+<!--================================== AngularJS Scripts================================== -->
+<script type="text/javascript">
+
+
+    /*Everything attaches to this main 'Angular Module'. you can add as many of these controllers, factories, (other modules) as you want.*/
+    angular.module('starterApp', [])
+
+
+        /*======================Controller layer - used to control the template======================*/
+        .controller('myController', ['$scope', 'SearchService', function ($scope, SearchService) {
+
+            /*Attaches a variable to the $scope variable to be called from the HTML Templat*/
+            $scope.myBindedVariable = 'BINDED!';
+            $scope.bindedObject = {};
+            $scope.bindedObject.input1 = 'replace me';
+
+
+            /*Attaches a function to the $scope variable to be called from the HTML Templat*/
+            $scope.testPost = function (param1, param2) {
+                /*Call the service. injected as a parameter in the .controller function*/
+                SearchService.service1post(param1, param2)
+                    .then(function (data) {
+                        $scope.returnData = data;
+                        console.log('Success Response: ', data);
+                    },
+                    function (err) {
+                        console.log('Error Response: ', err);
+                    });
+            }
+
+        }])
+
+
+        /*======================Model/Services Layer - used mainly for data gathering======================*/
+        .factory('SearchService', ['$http', '$q', function ($http, $q) {
+
+            const _svc = {
+
+                service1post: function (name, email) {
+                    // const data = JSON.stringify({ "limit": 48, "offset": 0, "sortBy": "name", "sortDirection": "ASC", "path": "/Flight Control", "_method": "GET" })
+                    /*Uses '$q' to return a 'Promise'. Notice how $q was injected at the top of this factory in order to be used.*/
+                    const deferred = $q.defer();
+                    // $http({
+                    //     method: 'POST',
+                    //     url: 'https://flightcontrol-d.redbull.com/rest/public/1.0/linkpubview/xiwlzTbE4y/fsi/b9df12ef-f19d-4292-b451-88794ea2def9/contents',
+                    //     data: data,
+                    //     headers: {
+                    //         'Content-Type': 'application/json'
+                    //     }
+                    // })
+                    $http({
+                        method: 'GET',
+                        url: 'https://jsonplaceholder.typicode.com/photos'
+
+                    })
+                        .success(function (data) {
+                            deferred.resolve(data);
+                        })
+                        .error(function (err) {
+                            deferred.reject(err);
+                        });
+
+                    return deferred.promise;
+                }
+            };
+            return _svc;
+        }]);
+</script>
+<!-- ======================================END Angular JS scripts====================================== -->
 
 </html>
