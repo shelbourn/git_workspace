@@ -3,13 +3,17 @@
 
 <head>
     <title>Angular Starter (Single Page)</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
     <style>
-        body{
+        body {
             margin: 10px;
             padding: 10px;
         }
@@ -37,7 +41,7 @@
         <br>
         <h3>This click function was declared in the controller, attached to the scope, and fired from the 'view'. it also uses
             the Services/Model layer to perform a post, then return data to another Binded variable.</h3>
-            <br>
+        <br>
         <button class="btn btn-primary" ng-click="testPost('parameter1', 'parameter2')">GET some test variables</button>
         <br>
         <br>
@@ -86,14 +90,6 @@
                     // const data = JSON.stringify({ "limit": 48, "offset": 0, "sortBy": "name", "sortDirection": "ASC", "path": "/Flight Control", "_method": "GET" })
                     /*Uses '$q' to return a 'Promise'. Notice how $q was injected at the top of this factory in order to be used.*/
                     const deferred = $q.defer();
-                    // $http({
-                    //     method: 'POST',
-                    //     url: 'https://flightcontrol-d.redbull.com/rest/public/1.0/linkpubview/xiwlzTbE4y/fsi/b9df12ef-f19d-4292-b451-88794ea2def9/contents',
-                    //     data: data,
-                    //     headers: {
-                    //         'Content-Type': 'application/json'
-                    //     }
-                    // })
                     $http({
                         method: 'GET',
                         url: 'https://jsonplaceholder.typicode.com/photos'
