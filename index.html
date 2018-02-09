@@ -3,6 +3,8 @@
 
 <head>
     <title>Angular Starter (Single Page)</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
@@ -73,9 +75,9 @@
                         $scope.returnData = data;
                         console.log('Success Response: ', data);
                     },
-                    function (err) {
-                        console.log('Error Response: ', err);
-                    });
+                        function (err) {
+                            console.log('Error Response: ', err);
+                        });
             }
 
         }])
