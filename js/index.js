@@ -10,4 +10,4 @@ var question =
 console.log(question);
 
 const anwser =
-  "One of two ways. Either post your code in here. *Best idea becuase that is what you'll be doing.* or just copy and paste it into your browser console.";
+  "One of two ways. Either post your code in the .js file. *Best idea becuase that is what you'll be doing on the job.* or just copy and paste it into your browser console. Browsers can read javascript natively.";
