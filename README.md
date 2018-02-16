@@ -33,39 +33,21 @@ https://www.youtube.com/watch?v=oFYyTZwMyAg
 
 <br>
 
-## Git Markdown Cheat Sheet
-
-[Git Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-<br>
-
 ## Link for Basics of Branching and Merging
 
-[Basics of Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
-
-<br>
-
-## Link for Vim Cheat Sheet
-
-[Vim Cheat Sheet](https://vim.rtorr.com/)
+* [Basics of Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
 <br>
 
 ## Resolving Merge Conflicts Between Branches that are both being updated Simultaneously
 
-[Resolving Merge Conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/)
-
-<br>
-
-## Git Emoji Cheat Sheet :wink:
-
-[Emoji Cheat Sheet](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c)
+* [Resolving Merge Conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/)
 
 <br>
 
 ## Git Pull vs Git Fetch (and Stashing)
 
-[Git Pull vs Git Fetch (and Stashing)](https://codeahoy.com/2016/04)
+* [Git Pull vs Git Fetch (and Stashing)](https://codeahoy.com/2016/04)
 
 <br>
 
@@ -84,15 +66,33 @@ git pull -p --prune
 ```
 
 <br>
+<br>
+
+---
+
+## Link for Vim Cheat Sheet
+
+* [Vim Cheat Sheet](https://vim.rtorr.com/)
 
 <br>
 
+## Using Mark Down Syntax Resources :wink:
+
+1. [Mark Down Syntax](https://en.wikipedia.org/wiki/Markdown)
+2. [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+3. [GitHub Emoijs](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c)
+
+<br>
+<br>
+
+---
+
 ## JSON Free Testing Api
 
-JSON Placeholder Webapp `https://jsonplaceholder.typicode.com/`
+* [JSON Placeholder Webapp](https://jsonplaceholder.typicode.com/`)
 
 <br>
 
 ## Settings Sync for VS Code (Syncs user settings across multiple VS Code environments)
 
-[Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+* [Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
