@@ -1,7 +1,6 @@
 const array = [1, 2, 3];
 
-var example =
-  "Showing this string in the console! Because I'm a little biyatch and my name is Nick!";
+var example = "Showing this string in the console! Matt YOU BITCH!";
 
 console.log(array[0], example);
 
