@@ -2,6 +2,7 @@ var example = "Showing this string in the console! Because I'm a little biyatch 
 
 console.log(example);
 
+//Question for Nick
 var question = "How do I load a JS file into a browser so I can view the output of the JS code?";
 
 console.log(question);
