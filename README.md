@@ -102,6 +102,7 @@ JSON Placeholder Webapp `https://jsonplaceholder.typicode.com/`
 ## Configuration of your User Name and Email Addresses through the Command Line Interface for Git
 
 <br>
+
 ### Globally Set User Name
 
 <br>
