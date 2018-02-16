@@ -100,53 +100,84 @@ JSON Placeholder Webapp `https://jsonplaceholder.typicode.com/`
 <br>
 
 ## Configuration of your User Name and Email Addresses through the Command Line Interface for Git
+
 <br>
 ### Globally Set User Name
+
 <br>
+
 ```
 $ git config --global user.name "Your User Name Here"
 ```
+
 <br>
+
 ### Confirm that you have set your Global User Name Correctly
+
 <br>
+
 ```
 $ git config --global user.name
 > Your User Name Here
 ```
+
 <br>
+
 ### Set User Name for a Single Repository
+
 <br>
+
 ```
 $ git config user.name "Your User Name Here"
 ```
+
 <br>
+
 ### Confirm that you have set your Single Repo User Name Correctly
+
 <br>
+
 ```$ git config user.name
 > Your User Name Here
 ```
+
 <br>
+
 ### Globally Set User Email Address
+
 <br>
+
 ```
 $ git config --global user.email "your@email.com"
 ```
+
 <br>
+
 ### Confirm that you have set your Global User Email Address Correctly
+
 <br>
+
 ```
 $ git config --global user.email
 > your@email.com
 ```
+
 <br>
+
 ### Set User Email Address for One Repository Only
+
 <br>
+
 ```
 $ git config user.email "your@email.com"
 ```
+
 <br>
+
 ### Confirm that you have Correctly set your User Email Address for One Repository
+
 <br>
+
 ```
 $ git config user.email
 > your@email.com
