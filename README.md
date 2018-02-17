@@ -35,19 +35,19 @@ https://www.youtube.com/watch?v=oFYyTZwMyAg
 
 ## Link for Basics of Branching and Merging
 
-* [Basics of Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+* <a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging" target="_blank">Basics of Branching and Merging</a>
 
 <br>
 
 ## Resolving Merge Conflicts Between Branches that are both being updated Simultaneously
 
-* [Resolving Merge Conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/)
+* <a href="https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/" target="_blank">Resolving Merge Conflicts</a>
 
 <br>
 
 ## Git Pull vs Git Fetch (and Stashing)
 
-* [Git Pull vs Git Fetch (and Stashing)](https://codeahoy.com/2016/04)
+* <a href="https://codeahoy.com/2016/04" target="_blank">Git Pull vs Git Fetch (and Stashing)</a>
 
 <br>
 
@@ -72,7 +72,7 @@ git pull -p --prune
 
 ## Link for Vim Cheat Sheet
 
-* [Vim Cheat Sheet](https://vim.rtorr.com/)
+* <a href="https://vim.rtorr.com/" target="_blank">Vim Cheat Sheet</a>
 
 <br>
 
@@ -89,16 +89,16 @@ git pull -p --prune
 
 ## JSON Free Testing Api
 
-* [JSON Placeholder Webapp](https://jsonplaceholder.typicode.com/`)
+* <a href="https://jsonplaceholder.typicode.com" target="_blank">JSON Placeholder Webapp</a>
 
 <br>
 
 ## Settings Sync for VS Code (Syncs user settings across multiple VS Code environments) _MAKE SURE TO SAVE YOUR SYNC SETTINGS AUTHENTICATION TOKEN!_
 
 <<<<<<< HEAD
-* [Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-=======
-[Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+
+* # [Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+  [Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
 <br>
 
@@ -186,4 +186,5 @@ $ git config user.email "your@email.com"
 $ git config user.email
 > your@email.com
 ```
->>>>>>> b6f6212ced4b19f0c1a6f8cd9ad79733489dea96
+
+> > > > > > > b6f6212ced4b19f0c1a6f8cd9ad79733489dea96
