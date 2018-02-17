@@ -183,3 +183,17 @@ $ git config user.email "your@email.com"
 $ git config user.email
 > your@email.com
 ```
+
+<br>
+
+## Sync Local Repo with Remote Repo
+
+<br>
+
+```
+git fetch origin
+git reset --hard origin/master
+git clean -f -d
+```
+
+<br>
