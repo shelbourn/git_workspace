@@ -96,8 +96,8 @@ git pull -p --prune
 ## Settings Sync for VS Code (Syncs user settings across multiple VS Code environments) _MAKE SURE TO SAVE YOUR SYNC SETTINGS AUTHENTICATION TOKEN!_
 
 
-* # [Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-  [Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+## Settings Sync for VS Code
+[Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
 <br>
 
