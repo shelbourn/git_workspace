@@ -187,4 +187,21 @@ $ git config user.email
 > your@email.com
 ```
 
-> > > > > > > b6f6212ced4b19f0c1a6f8cd9ad79733489dea96
+### Deleting git branches: <a herf="https://makandracards.com/makandra/621-git-delete-a-branch-local-or-remote" target="_blank">Git Delete information</a>
+
+```bash
+# local branches
+
+git branch -d branchName
+
+# origin branches
+
+git push origin --delete branchName
+
+# NOTE: '-d' is short hand for '--delete'
+```
+
+<br>
+<br>
+
+> > > > > > > Random
