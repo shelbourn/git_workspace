@@ -186,7 +186,7 @@ $ git config user.email
 
 <<<<<<< HEAD
 
-### Deleting git branches: <a herf="https://makandracards.com/makandra/621-git-delete-a-branch-local-or-remote" target="_blank">Git Delete information</a>
+### Deleting git branches: [Git Delete information](https://makandracards.com/makandra/621-git-delete-a-branch-local-or-remote)
 
 ```bash
 # local branches
