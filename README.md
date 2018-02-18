@@ -95,10 +95,7 @@ git pull -p --prune
 
 ## Settings Sync for VS Code (Syncs user settings across multiple VS Code environments) _MAKE SURE TO SAVE YOUR SYNC SETTINGS AUTHENTICATION TOKEN!_
 
-<<<<<<< HEAD
-
-* # [Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-  [Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+* [Settings Sync for VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
 <br>
 
@@ -187,6 +184,8 @@ $ git config user.email
 > your@email.com
 ```
 
+<<<<<<< HEAD
+
 ### Deleting git branches: <a herf="https://makandracards.com/makandra/621-git-delete-a-branch-local-or-remote" target="_blank">Git Delete information</a>
 
 ```bash
@@ -199,6 +198,18 @@ git branch -d branchName
 git push origin --delete branchName
 
 # NOTE: '-d' is short hand for '--delete'
+```
+
+<br>
+
+## Sync Local Repo with Remote Repo
+
+<br>
+
+```
+git fetch origin
+git reset --hard origin/master
+git clean -f -d
 ```
 
 <br>
