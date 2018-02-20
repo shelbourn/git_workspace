@@ -1,0 +1,16 @@
+{
+  "name": "git_workspace-server",
+  "version": "1.0.0",
+  "description": "simple node server",
+  "main": "server.js",
+  "repository": "https://github.com/shelbourn/git_workspace.git",
+  "author": "WolverineCoders",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
