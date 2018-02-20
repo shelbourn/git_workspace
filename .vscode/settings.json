@@ -1,3 +1,4 @@
 {
-  "express.portNumber": 8242
+  "express.portNumber": 8242,
+  "express.relativeRoot": "./client"
 }
