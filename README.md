@@ -221,3 +221,12 @@ git clean -f -d
 * [Paths Explained](http://desktop.arcgis.com/en/arcmap/10.3/tools/supplement/pathnames-explained-absolute-relative-unc-and-url.htm)
 * [HTML File Paths](https://www.w3schools.com/Html/html_filepaths.asp)
 * [Absolute & Relative Paths](https://www.youtube.com/watch?v=ephId3mYu9o)
+
+<br>
+
+## Git Housekeeping (Cleaning up local repos after merges, pulls, etc.)
+
+<br>
+
+[Git Housekeeping](https://railsware.com/blog/2014/08/11/git-housekeeping-tutorial-clean-up-outdated-branches-in-local-and-remote-repositories/)
+
