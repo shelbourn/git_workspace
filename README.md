@@ -215,6 +215,9 @@ git clean -f -d
 ```
 
 <br>
+
+## Paths Explained: Absolute, relative, UNC, and URL
+
 <br>
 
-> > > > > > > Random
+* [Paths Explained](http://desktop.arcgis.com/en/arcmap/10.3/tools/supplement/pathnames-explained-absolute-relative-unc-and-url.htm)
