@@ -220,3 +220,4 @@ git clean -f -d
 
 * [Paths Explained](http://desktop.arcgis.com/en/arcmap/10.3/tools/supplement/pathnames-explained-absolute-relative-unc-and-url.htm)
 * [HTML File Paths](https://www.w3schools.com/Html/html_filepaths.asp)
+* [Absolute & Relative Paths](https://www.youtube.com/watch?v=ephId3mYu9o)
