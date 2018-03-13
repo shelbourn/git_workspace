@@ -1,3 +1,26 @@
+//Some Dam Complex Conditionals
+
+var totalGen = 19;
+var totalMW = 0;
+
+for (var gen = 1; gen <= totalGen; gen++) {
+  if (gen % 2 == 0 && gen <=4) {
+    var genStatus = "on";
+    totalMW += 62;
+    console.log("Generator #" + gen + " is on, adding 62 MW, for a total of " + totalMW + " MW!");
+  }
+  
+  else if (gen % 2 == 0 && gen > 4) {
+    var genStatus = "off";
+    totalMW += 124;
+    console.log("Generator #" + gen + " is on, adding 124 MW, for a total of " + totalMW + " MW!");
+  }
+  else {
+    genStatus = "off";
+    console.log("Generator #" + gen + " is off.");
+  }
+}
+
 //Challenge: Using Map With Arrays II
 
 var modifiedNames = [ "Thomas Meeks",
