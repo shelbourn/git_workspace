@@ -8,3 +8,6 @@ yarn-error.log*
 
 # Dependency directories
 node_modules/
+
+# config.js file
+/server/config/config.js

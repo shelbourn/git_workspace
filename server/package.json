@@ -8,7 +8,14 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "server": "node server.js"
+    "server": "node server.js",
+    "build-d":
+      "touch config/config.js && cat config/config-d.js > config/config.js",
+    "build-q":
+      "touch config/config.js && cat config/config-q.js > config/config.js",
+    "build-p":
+      "touch config/config.js && cat config/config-p.js > config/config.js",
+    "delete": "rm -f -r config/config.js"
   },
   "dependencies": {
     "express": "^4.16.2"
