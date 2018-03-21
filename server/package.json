@@ -9,15 +9,26 @@
   "private": false,
   "scripts": {
     "server": "node server.js",
+    "delete": "rm -f -r config/config.js",
+    "new-folder": "touch config/config.js",
     "build-d":
-      "touch config/config.js && cat config/config-d.js > config/config.js",
+      "yarn run delete && yarn run new-folder && cat config/config-d.js > config/config.js",
     "build-q":
-      "touch config/config.js && cat config/config-q.js > config/config.js",
+      "yarn run delete && yarn run new-folder && cat config/config-q.js > config/config.js",
     "build-p":
-      "touch config/config.js && cat config/config-p.js > config/config.js",
-    "delete": "rm -f -r config/config.js"
+      "yarn run delete && yarn run new-folder && cat config/config-p.js > config/config.js",
+    "env-1": "cross-env echo \"Test console output.\"",
+    "env-2": "cross-env config/config.js --myVar=\"Test console output.\"",
+    "env-3":
+      "node config/config.js --myVar=\"Test console output.\" one two=three four"
   },
   "dependencies": {
     "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.4"
+  },
+  "engines": {
+    "yarn": "^1.3.2"
   }
 }
