@@ -7,16 +7,19 @@
   "author": "WolverineCoders",
   "license": "MIT",
   "private": false,
+  "config": {
+    "source": "config/config.js"
+  },
   "scripts": {
     "server": "node server.js",
-    "delete": "rm -f -r config/config.js",
-    "new-folder": "touch config/config.js",
+    "delete": "rm -f -r %npm_package_config_source%",
+    "new-folder": "touch %npm_package_config_source%",
     "build-d":
-      "yarn run delete && yarn run new-folder && cat config/config-d.js > config/config.js",
+      "yarn run delete && yarn run new-folder && cat config/config-d.js > %npm_package_config_source%",
     "build-q":
-      "yarn run delete && yarn run new-folder && cat config/config-q.js > config/config.js",
+      "yarn run delete && yarn run new-folder && cat config/config-q.js > %npm_package_config_source%",
     "build-p":
-      "yarn run delete && yarn run new-folder && cat config/config-p.js > config/config.js",
+      "yarn run delete && yarn run new-folder && cat config/config-p.js > %npm_package_config_source%",
     "env-1": "cross-env echo \"Test console output.\"",
     "env-2": "cross-env config/config.js --myVar=\"Test console output.\"",
     "env-3":
