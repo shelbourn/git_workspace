@@ -230,3 +230,22 @@ git clean -f -d
 
 [Git Housekeeping](https://railsware.com/blog/2014/08/11/git-housekeeping-tutorial-clean-up-outdated-branches-in-local-and-remote-repositories/)
 
+<br>
+
+## Updating Node.js Server Via Command Line (without downloading standalone install packages)
+
+<br>
+
+```
+1   sudo npm cache clean -f
+2   sudo npm install -g n
+3   sudo n stable
+```
+
+<br>
+
+To install the latest release, use `n latest`. Alternatively, you can run `n #.#.#` to get a specific Node version
+
+<br>
+
+*Source: [How to Update Node.js to Latest Version (Linux, Ubuntu, OSX, Others)](https://www.hostingadvice.com/how-to/update-node-js-latest-version/)
