@@ -1,3 +1,6 @@
+// FIXME: example for key word FIXME from 'TODO Highlight' extention
+/* TODO: example for key word TODO from 'TODO Highlight' extention */
+
 const array = [1, 2, 3];
 
 let example = "Showing this string in the console! Matt YOU BITCH!";
