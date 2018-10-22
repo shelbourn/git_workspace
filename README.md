@@ -245,7 +245,4 @@ git clean -f -d
 <br>
 
 To install the latest release, use `n latest`. Alternatively, you can run `n #.#.#` to get a specific Node version
-
-<br>
-
-*Source: [How to Update Node.js to Latest Version (Linux, Ubuntu, OSX, Others)](https://www.hostingadvice.com/how-to/update-node-js-latest-version/)
+*Source: [How to Update Node.js to Latest Version (Linux, Ubuntu, OSX, Others)](https://www.hostingadvice.com/how-to/update-node-js-latest-version/)*
